@@ -1,0 +1,27 @@
+name: test_printer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl:
+  bluetooth_print:
+  http:
+  esc_pos_printer:
+  esc_pos_utils:
+  permission_handler:
+  screenshot:
+  image:
+  cupertino_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
